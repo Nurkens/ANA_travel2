@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto,Arial;
+}
+.header{
+   
+    width: 100%;
+    height: 100vh;
+    background-image:url(photos/2ph.JPG) ;
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+}
+
+.navbar{
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    position: flex;
+
+   
+}
+.info{
+    margin-right:35px;
+    display:flex;
+}
+.info ul li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+    
+   
+}
+.info ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+.info ul li a:hover{
+    opacity: 0.4;
+}
+.logo h1{
+   
+    color:white;
+    margin-left:100px;
+}
+.header-info{
+    color:white;
+    position: absolute;
+    vertical-align: center;
+    text-align: center;
+    bottom:350px;
+    left:450px;
+   
+    
+}
+
+.hero{
+    margin-top:20px;
+    align-items: center;
+    margin-left:365px;
+   
+    
+}
+
+.hero-info{
+    margin-top:50px;
+}
+.hero-info h1{
+    text-align: center;
+    margin-bottom:20px;
+}
+.destinations{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+.destinations-img{
+    width:250px;
+    height:300px;
+    border-radius: 5px;
+    
+}
+
+
+.destinations-info{
+    position: absolute;
+    bottom:150px;
+    left:80px;
+    color:white;
+    font-size:20px;
+
+    
+}
+.tourist-info{
+    text-align: center;
+    margin-top:80px;
+  
+    
+    
+    
+}   
+.yurta-img{
+    
+    height: 100%;
+}
+
+.location-find{
+    position:absolute;
+    
+    bottom:200px;
+    left:200px;
+    background: #ffff;
+    width:70%;
+    margin:30px auto;
+    padding:6px 10px 6px 30px;
+    border-radius:50px;
+}
+.location-find form{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.location-find form input{
+    display: block;
+    outline: none;
+    background: transparent;
+    border: 0;
+    margin-right:40px;
+}
+.location-div{
+    flex:1;
+}
+.search-icon-img{
+    width:20px;
+    background-color:#ffff;
+    border-radius: none;
+    border-style: none;
+
+}
+.location-find form button{
+    border: none;
+    align-items: center;
+    margin-right:10px;
+}
+
+.gastronomy{
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+    
+}
+.gastronomy-img{
+    width:300px;
+    height:350px;
+    border-radius: 20px;
+    margin-right:25px;
+}
+.gastronomy-info{
+    font-family: sans-serif;
+    width:380px;
+    line-height: 30px;
+    position: relative;
+   
+}
+.gastronomy-info h3{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.gastronomy-info p{
+    color: #818087;
+}
+.gastronomy-info h5{
+    font-size:20px;
+}
+.gastronomy-info h3{
+    font-size:30px;
+}
+.gastronomy-img-head{
+    position: relative;
+}
+.gastronomy-img-head h3{
+    position: absolute;
+    bottom:30px;
+    color:#ffff;
+    left:20px;
+}
+.trip-img{
+    width:50px;
+    margin-bottom:20px;
+    
+}
+.trip-info{
+    background-color: #f6f3f2;
+    width:260px;
+    padding:20px;
+    margin-right:20px;
+    border:2px;
+    border-color: #f6f3f2;
+    border-style:solid;
+}
+.trip-info i{
+    margin-bottom:55px;
+}
+.trip-info p{
+    margin-bottom:30px;
+}
+.trip-info-2{
+    background-color: white;
+    width:260px;
+    padding:20px;
+    margin-right:20px;
+    border:2px;
+    border-color: #f6f3f2;
+    border-style:solid;
+    position: relative;
+    
+}
+
+.p-big{
+    line-height: 20px;
+    padding-bottom:70px;
+}
+.trip-info a{
+    color:#292F33;
+    padding-left:40px;
+    text-decoration: none;
+    
+}
+.trip-info-2 a{
+    color:#292F33;
+    padding-left:40px;
+    text-decoration: none;
+    
+}
+.trip-info-2 a:hover{
+    color:rgb(255, 67, 67);
+}
+.trip-info a:hover{
+    color:rgb(255, 67, 67);
+}
+.trip-info-big{
+    display:flex;
+    justify-content: center;
+    font-family: 'Montserrat',sans-serif;
+}
+.trip{
+    margin-top:100px;
+}
+.trip-story{
+   margin-left:120px;
+   margin-bottom:30px;
+   font-size: 18px;
+}
+.trip-story h1{
+    font-weight:400;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-size:50px;
+}
+.trip-info-2 img{
+    padding-top:150px;
+   
+}
+.trip-info-2 p{
+    padding-bottom:60px;
+}
+.footer{
+    margin-top:140px;
+    background-image: url(photos/footer.jpg);
+    
+    color:white;
+    padding-bottom:60px;
+}
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footer-top li a{
+    text-decoration: none;
+    color:#818087;
+   
+}
+.footer-top li a:hover{
+    cursor: pointer;
+   opacity: 0.4;
+}
+.footer-top li{
+    list-style: none;
+    margin-top:10px;
+}
+.footer h1{
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+.footer-social{
+    display:grid;
+}
+.footer-bottom{
+    display: flex;
+    padding-bottom:30px;
+    margin-top:20px;
+
+}
+.footer-bottom i{
+    margin-left:20px;
+    margin-right:10px;
+    
+}
+.footer h1{
+    padding-top:20px;
+}
