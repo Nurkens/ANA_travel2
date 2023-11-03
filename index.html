@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agency</title>
+    <title> Travel Agency</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
         <div class="info">  
           <ul> 
             <li><a href="">Home</a></li>
-            <li><a href="">Destinations</a></li>
+            <li><a href="#hero">Destinations</a></li>
             <li><a href="">Things To Do</a></li>
             <li><a href="">Booking</a></li>
           </ul>
@@ -43,14 +43,20 @@
               </div>
     
               <div>
-                  <label>Check in </label>
+                  <label>Where to  </label>
                   <input type="text" placeholder="Where are you going?"> 
               </div>
               <div>
-                  <label>Check out</label>
-                  <input type="text" placeholder="Where are you going?"> 
+                <label>Date of tour</label>
+                <input type="text" placeholder="Select the date"> 
+            </div>
+              <div>
+                  <label>Amount of people</label>
+                  <input type="text" placeholder="2 Adults"> 
               </div>
-              <button><img  class="search-icon-img" src="https://cdn-icons-png.flaticon.com/512/954/954591.png" alt=""></button>
+              <button class="calculator">
+                Calculate
+              </button>
           </form>
       </div>
 
@@ -60,11 +66,13 @@
       
     </div>
 
-    <div class="hero">
+    <div id="hero">
         <div class="destinations">
             <img class="destinations-img" src="photos/kanyon.JPG" alt="">
             <div class="destinations-info">CHARYN </div>
+            
         </div>
+        
         <div class="destinations">
           <img class="destinations-img" src="photos/borovoe.JPG" alt="">
           <div class="destinations-info">BOROROVOE</div>
@@ -75,8 +83,91 @@
         </div>
           
     </div>
-   
-  
+    
+    
+
+
+    <div class="cities">
+        <div class="cities-info">
+            <h2>Explore Big Cities of Kazakhstan</h2>
+            <p>Book these experiences for a close-up look at Cities</p>
+
+        </div>
+        <div class="cities-paragraph">
+
+            <div class="cities-main">
+                <div class="cities-img-main">
+                    <div class="img-cities-position">
+                      <img  class="cities-img" src="photos/cities/Almaty.jpeg" alt="">
+                      <div class="heart">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                      </div>
+                    </div>
+                    <h2  >Full Day of Exploring of Almaty </h2>
+                    <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                    <i class="fa-regular fa-star fa-sm" style="color: #f4d125;"></i>
+                    <p>from $160 per adult</p>
+                </div>
+            </div>
+            <div class="cities-main">
+              <div class="cities-img-main">
+                  <div class="img-cities-position">
+                    <img  class="cities-img" src="photos/cities/Astana.jpg" alt="">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart fa-lg"></i>
+                    </div>
+                  </div>
+                  <h2>VISIT THE CAPITAL OF KAZAKHSTAN </h2>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-regular fa-star fa-sm" style="color: #f4d125;"></i>
+                  <p>from $200 per adult</p>
+              </div>
+            </div>
+            <div class="cities-main">
+              <div class="cities-img-main">
+                  <div class="img-cities-position">
+                    <img  class="cities-img" src="photos/cities/Aktau.jpg" alt="">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart fa-lg"></i>
+                    </div>
+                  </div>
+                  <h2>BREATHTAKING CASPIAN SEA </h2>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-regular fa-star fa-sm" style="color: #f4d125;"></i>
+                  <p>from $250 per adult</p>
+              </div>
+            </div>
+            <div class="cities-main">
+              <div class="cities-img-main">
+                  <div class="img-cities-position">
+                    <img  class="cities-img" src="photos/cities/Shymkent.jpg" alt="">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart fa-lg"></i>
+                    </div>
+                  </div>
+                  <h2>SOUTH KAZAKHSTAN </h2>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f4d125;"></i>
+                  <i class="fa-regular fa-star fa-sm" style="color: #f4d125;"></i>
+                  <p>from $160 per adult</p>
+              </div>
+            </div>
+          
+        </div>
+    </div>
+    
+    
     
 
     <div class="gastronomy">
@@ -125,7 +216,7 @@
               <img  class="trip-img" src="photos/booking.jpg" alt="">
               <p>#BOOKING TIPS</p>
               
-              <p class="p-big"> The most popular way to get to Kazakhstan is by plane.We will also tell you how to get there by car and by train</p>
+              <p class="p-big">Plan Ahead: Start your booking process well in advance to get the best deals and availability. Prices tend to be lower when you book early</p>
               <a href="#">READ MORE</a>
             </div>
 
@@ -137,6 +228,11 @@
             </div>
         </div>
     </div>
+
+
+  
+
+
     
     <div class="footer">
         <hr>
