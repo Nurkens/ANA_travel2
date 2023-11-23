@@ -113,33 +113,7 @@
     height: 100%;
 }
 
-.location-find{
-    position:absolute;
-    
-    bottom:200px;
-    left:200px;
-    background: #ffff;
-    width:70%;
-    margin:30px auto;
-    padding:6px 10px 6px 30px;
-    border-radius:50px;
-}
-.location-find form{
-    display: flex;
-    align-items: center;
-    
-    
-}
-.location-find form input{
-    display: block;
-    outline: none;
-    background: transparent;
-    border: 0;
-    margin-right:40px;
-}
-.location-div{
-    flex:1;
-}
+
 .search-icon-img{
     width:20px;
     background-color:#ffff;
@@ -147,11 +121,7 @@
     border-style: none;
 
 }
-.location-find form button{
-    border: none;
-    align-items: center;
-    margin-right:10px;
-}
+
 
 .gastronomy{
     display: flex;
@@ -375,4 +345,136 @@
 }
 .cities{
     margin-bottom:250px;
+}
+
+.booking-kz{
+    background-image: url(https://muffingroup.com/blog/wp-content/uploads/2021/03/gr.jpg);
+    padding-top:300px;
+    padding-bottom:400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:100px;
+    
+    
+}
+.booking-info {
+    color:white;
+    
+    width:478px;
+    
+    
+}
+.booking-info h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+.booking-info p{
+    line-height: 40px;
+    font-size:28px;
+}
+.booking-tip{
+    background-color:white;
+    padding-top:30px;
+    padding-left:50px;
+    border-radius: 10px;
+    margin-left:100px;
+    width:680px;
+    padding-bottom:40px;
+    
+}
+.booking-tip2{
+    width:616px;
+}
+.booking-tip2 input{
+    width:100%;
+    height:35px;
+    border-style:none;
+    background-color: #F6F6F6;
+    border-radius:10px;
+}
+.departure-bok{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    flex:1;
+}
+.booking2-kz{
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+.booking2-kz input{
+    padding-left:10px;
+}
+.text-holder{
+    display:flex;
+    border-style: none;
+    justify-content: space-around;
+}
+.calendar{
+    position:absolute;
+    right:5px;
+    bottom:15px;
+}
+.text-holder-1{
+    position:relative;
+    width:180px;
+   
+}
+.amount-person{
+    display:flex;
+    background-color: #F6F6F6;
+    justify-content: space-between;
+    margin-bottom:20px;
+
+}
+.amount{
+    display:flex;
+    padding:10px;
+    justify-content: space-between;
+    font-size:14px;
+}
+.plus-minus{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:20px;
+}
+.plus-minus p{
+    margin-left:3px;
+    margin-right:3px;
+}
+.booking-tip2 button{
+    width: 100%;
+    border-style:none;
+    background-color: #EF3A50;
+    color:white;
+    font-size:14px;
+    padding:14px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.booking-img{
+    width: 140px;
+    padding-left:40%;
+}
+.booking-img-1{
+    margin-top:20px;
+}
+.instagram-photos{
+    margin-top:100px;
+}
+.instagram-photos p{
+    padding-left:65px;
+    margin-bottom:30px;
+    font-weight: bold;
+}
+.instagram-imeges{
+    display:flex;
+    justify-content: center;
+
+}
+.instagram-img{
+    width:250px;
 }
